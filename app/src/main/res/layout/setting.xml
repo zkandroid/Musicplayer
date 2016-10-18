@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollPicker"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/iv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+				android:background="#ACD4F9"
+            android:textColor="#000000"
+            android:textSize="12dip"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:id="@+id/addstudyplan"
+                android:text="设置学习计划"
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="30dip"
+            />
+
+            <Button
+                android:id="@+id/deleteAllCoursesAndAlarms"
+                android:text="删除周一到周五的所有行程和闹钟"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/deleteAllWeekendAndAlarms"
+                android:text="删除周末行程和闹钟"
+		    	android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    />
+
+			<Button
+				android:id="@+id/deleteAllPlanAndAlarms"
+            android:text="删除所有计划和闹钟"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

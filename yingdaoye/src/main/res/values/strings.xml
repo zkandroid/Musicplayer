@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">yingdaoye</string>
+    <string name="tip_reach_top">也到达列表顶端，现在播放最后一曲</string>
+    <string name="tip_reach_bottom">也到达列表底端，现在播放第一曲</string>
+    <string name="tip_no_music_file">没有找到音乐文件，请先添加音乐</string>
+    <string name="title_activity_music_main">MusicMain</string>
+</resources>

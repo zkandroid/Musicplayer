@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        >
+    <com.example.administrator.mymediaplayer.ui.AvatarCircle
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/me"
+        android:layout_gravity="center"
+        app:StrokeColor="@color/colorAccent"
+        app:StrokeWidth="5dp"/>
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.example.administrator.mymediaplayer.ui.MyButton
+                    android:id="@+id/creat_jbxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></com.example.administrator.mymediaplayer.ui.MyButton>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="姓        名："/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="性        别：男"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="学        历：本科"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="籍        贯：贵州"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="学        校：电子科技大学"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="学        院：数学科学学院"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="专        业：信息与计算科学"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="联系电话：13088085386"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="邮        箱：13088085386@163.com"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="一句话介绍：网瘾少年的救赎之路"/>
+                <Button
+                    android:id="@+id/job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="工作经历"/>
+                <Button
+                    android:id="@+id/school"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="教育经历"/>
+                <Button
+                    android:id="@+id/xiangmu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="项目经历"/>
+                <Button
+                    android:id="@+id/myself"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="自我评价"/>
+                <Button
+                    android:id="@+id/work"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="职业技能"/>
+
+            </LinearLayout>
+</ScrollView>
+</LinearLayout>

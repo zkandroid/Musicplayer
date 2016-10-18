@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1"
+        android:layout_alignParentTop="true"  />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#80000000">
+    <LinearLayout android:layout_height="wrap_content"
+        android:gravity="center" android:layout_width="fill_parent"
+        android:id="@+id/linearLayout2">
+
+    <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_previous"
+            android:layout_margin="8dp" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_play"
+            android:layout_margin="8dp" />
+        <ImageButton android:id="@+id/imageButton3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_stop"
+            android:layout_margin="8dp" />
+        <ImageButton android:id="@+id/imageButton4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_next"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+<SeekBar
+    android:layout_height="wrap_content"
+    android:id="@+id/seekBar1"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dip"
+      android:paddingRight="10dip" />
+<RelativeLayout
+    android:id="@+id/relativeLayout2"
+     android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+<TextView
+    android:layout_alignParentLeft="true"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/textView1"
+    android:text="00:00" />
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/textView2"
+    android:layout_alignParentRight="true"
+    android:text="00:00" />
+</RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="启动行程管家"
+            android:drawableLeft="@drawable/letsgo"
+            android:background="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:id="@+id/letsgo"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/setting"
+            android:text="设               置"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:id="@+id/setting"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">firstapp</string>
+    <string name="title_activity_my_tab">myTab</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_courseinfo">Courseinfo</string>
+    <string name="title_activity_alarm_alert">AlarmAlert</string>
+    <string name="title_activity_send_message">SendMessage</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_dialog">dialog</string>
+    <string name="title_activity_plan">plan</string>
+</resources>
